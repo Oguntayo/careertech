@@ -58,7 +58,7 @@ Open <http://localhost:3000>.
 | `DATABASE_URL`       | Postgres connection string. Hosted databases usually need `?sslmode=require`. |
 | `AUTH_SECRET`        | Secret for signing session cookies. Generate with `openssl rand -base64 32`. |
 | `OPENAI_API_KEY`     | OpenAI key.                                                             |
-| `OPENAI_MODEL`       | Optional. Must accept PDF and image input. Defaults to `gpt-4o`.        |
+| 
 | `GMAIL_USER`         | Gmail address used to send resumes.                                     |
 | `GMAIL_APP_PASSWORD` | The Google App password (not your normal password).                     |
 | `CLOUDINARY_URL`     | `cloudinary://API_KEY:API_SECRET@CLOUD_NAME`                            |
